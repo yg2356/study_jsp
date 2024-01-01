@@ -3,8 +3,10 @@ package com.edu.test;
 import java.io.*;
 
 import javax.servlet.*;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 
+@WebServlet("/hello2")
 public class FirstServlet extends HttpServlet {
 	
 	@Override
