@@ -17,6 +17,7 @@ URL : 문서종보 & 위치
 
 ### WAS& SERVER & 컨테이너
 |WAS|Web Application SerVer|클라이언트의 요청을 받은것을 응답받아 처리하는 서버(DB, 로직)|Tomcat|
+
 |Web Server|클라이언트의 요청을 받은것을 응답받아 처리하는 서버(HTML,CSS,JS)|Apache|
 
 ※WAS는 웹 서버없이 독립적으로 존재 가능 ==> WAS > 웹서버
