@@ -29,3 +29,7 @@ URL : 문서종보 & 위치
 컨테이너 : JAVA 서블릿과 상호작용하는 WAS의 구성요소
 
 <img width="410" alt="2" src="https://github.com/yg2356/study_jsp/assets/59286004/5653cc1f-f483-46cb-b383-7daeaea237e3">
+
+# 2024-01-08
+GET : 클라이언트가 직접요청하는 파일 요청방식
+POST : GET의 부족한 부분 보완 + 질의 문자열 전달 기능 기반의 요청방식
