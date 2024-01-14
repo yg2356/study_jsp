@@ -2,6 +2,7 @@ package com.edu.test;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.net.URLDecoder;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -21,6 +22,7 @@ public class QueryTestServlet extends HttpServlet{
 		out.print("<html><head><title>Query 문자열 테스트</title></head></html>");
 		out.print("<body>");
 		out.print("<h1>GET 방식으로 요청되었습니다.</h1>");
+		
 		
 		String id = req.getParameter("id");
 		String password = req.getParameter("pwd");
@@ -42,7 +44,6 @@ public class QueryTestServlet extends HttpServlet{
 		out.print("종교 : " + religion + "<br/>");
 		out.print("소개 : " + intro + "<br/>");
 		out.print("전체 Query 문자열 : " + req.getQueryString());
-		
 		out.println("</body></html>");
 		out.close();
 	}
