@@ -64,3 +64,8 @@ GET = 서버의 데이터를 가져오는 단순 행위 - 선택 & 추출
 POST = 서버의 데이터 값 수정이나 상태변화시
 
 ex) GET : 읽기/ POST : 수정 / PUT : 등록 / DELETE : 삭제
+
+
+# 2024-01-15
+서블릿 실행시 객체 생성 순서
+![image](https://github.com/yg2356/study_jsp/assets/59286004/94095dd7-cea9-4ccf-8573-293e822776c6)
